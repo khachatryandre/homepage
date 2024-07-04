@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #002f4b;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background-size: cover;
+    background-color: #31576d;
+    color: white;
+}
+
+.services, .solutions, .training, .portfolio, .contact {
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #002f4b;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
